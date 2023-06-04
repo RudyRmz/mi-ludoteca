@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Noto+Sans+TC:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Dice House / Mi Ludoteca</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="nav__title">Mi Ludoteca</h1>
+        <img class="logo" src="./images/logo.svg" alt="Logo The Dice House que te lleva al inicio">
+        <button class="abrir__menu" id="abrir"><img src="./images/menu.svg" alt="Abrir menu desplegable de opciones"></button>
+        <nav class="nav container" id="nav">
+            <button class="cerrar__menu" id="cerrar"><img src="./images/cerrar.svg" alt="Cerrar menu desplegable de opciones"></button>
+            <ul class="nav__list">
+                <li class="nav__link"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__link"><a href="ludoteca.html" class="nav__link">Ludoteca</a></li>
+                <li class="nav__link"><a href="sobre-mi.html" class="nav__link">Sobre mi</a></li>
+                <li class="nav__link"><a href="contacto.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        
+        <section class="main-form container">
+                
+                <div class="container-form">
+                    <div class="info-form">
+                        <h2>Contacto</h2>
+                        <p>Si tienes alguna duda o comentario puedes contactarme a través del siguiente formulario o por medio de mis redes sociales.</p>
+
+                        <form action="https://formspree.io/f/mbjevgpn" method="post">
+
+                            <label>Nombre <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo" required></label>
+                            
+
+                            <label>Correo electrónico <input type="email" name="email" placeholder="Ingresa tu correo electrónico" class="campo" required></label>
+                            
+
+                            <label>Mensaje <textarea name="mensaje" placeholder="Ingresa tu mensaje" cols="30" rows="10"  required minlength="8" maxlength="500"></textarea></label>
+                            
+
+                            <input type="submit" name="enviar" value="Enviar mensaje" class="btn-enviar">
+                        </form>
+                    </div>
+                </div>
+        
+        </section>       
+
+
+    </main>
+    <button class="btn__up" id="up" aria-label="Boton que lleva a la parte inicial de la pantalla">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/rudy.ramirezmorales" aria-label="Boton que lleva a Facebook" ><i class="fa-brands fa-facebook"></i></a>
+
+                <a href="https://www.instagram.com/rudyramirezm/" aria-label="Boton que lleva a Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://twitter.com/rudyramirezm" aria-label="Boton que lleva a Twitter"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre-mi.html">Sobre Mi</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footerBottom">
+                    <p>Copyrigth &copy;2023; Designed by Rodolfo Ramírez</p>
+                </div>
+            </div>
+        </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

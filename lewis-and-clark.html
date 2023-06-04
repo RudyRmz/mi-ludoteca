@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Noto+Sans+TC:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Dice House / Mi Ludoteca</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="nav__title">Mi Ludoteca</h1>
+        <img class="logo" src="./images/logo.svg" alt="Logo The Dice House que te lleva al inicio">
+        <button class="abrir__menu" id="abrir"><img src="./images/menu.svg" alt="Abrir menu desplegable de opciones"></button>
+        <nav class="nav container" id="nav">
+            <button class="cerrar__menu" id="cerrar"><img src="./images/cerrar.svg" alt="Cerrar menu desplegable de opciones"></button>
+            <ul class="nav__list">
+                <li class="nav__link"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__link"><a href="ludoteca.html" class="nav__link">Ludoteca</a></li>
+                <li class="nav__link"><a href="sobre-mi.html" class="nav__link">Sobre mi</a></li>
+                <li class="nav__link"><a href="contacto.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="article__main container">
+                <figure class="hero__picture">
+                    <img src="./images/lewis-clark.jpg" class="article__image" alt="Imagen ilustrativa de juego Lewis & Clark: The Expedition">
+                </figure>
+                <div class="article__info">
+                    <h2 class="article__title">Lewis & Clark: The Expedition</h2>
+                    <h3 class="article__subtitle">Descripción</h3>
+                    <p class="article__paragraph">El 30 de noviembre de 1803, Estados Unidos compró Luisiana a Napoleón por 15 millones de dólares. Thomas Jefferson decidió enviar a los aventureros Meriwether Lewis y William Clark para que exploraran aquel inmenso territorio desconocido. La expedición de Lewis y Clark (de 1804 a 1806) fue la primera expedición americana que atravesó los Estados Unidos de Este a Oeste hasta la costa pacífica.</p>
+
+                    <p class="article__paragraph">Lewis & Clark incluye un doble uso de las cartas. Para ser activadas, deben combinarse dos cartas, dejando una de ellas deshabilitada por un tiempo, por lo que los jugadores se enfrentan constantemente al dilema de jugar la carta o sacrificarla para activar otra. Durante la partida, cada jugador ampliará su mano con nuevas cartas de personaje, construyendo una tripulación que le dará más opciones pero que tendrá que optimizar para que la expedición no sufra retrasos.</p>
+
+                    <a href="./documents-manuals/Resumen_Lewis_.pdf" target="_blank" class="article__button" >Descarga aqui el manual de instrucciones</a>
+
+                </div>
+
+                <div class="data__container container">
+                    <h4 class="article__subtitle">Ficha técnica</h4>
+                    <p class="article__paragraph"><img src="./images/dice.svg" alt=""> Estilo de juego: Eurogame</p>
+                    <p class="article__paragraph"><img src="./images/chess.svg" alt=""> Dinámica: Competitivo</p>
+                    <p class="article__paragraph"><img src="./images/person-plus.svg" alt=""> Jugadores: 1 a 5</p>
+                    <p class="article__paragraph"><img src="./images/clock.svg" alt=""> Duracion: 120 minutos</p>
+                    <p class="article__paragraph"><img src="./images/language.svg" alt=""> Idioma: Inglés (no depende del idioma)</p>
+                </div>
+
+                <div class="learn__container">
+                    <h5 class="article__subtitle">Aprende a jugar</h5>
+
+                    <iframe class="article__video" src="https://www.youtube.com/embed/zMAyaKXnH_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+        </section>       
+
+
+    </main>
+    <button class="btn__up" id="up" aria-label="Boton que lleva a la parte inicial de la pantalla">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/rudy.ramirezmorales" aria-label="Boton que lleva a Facebook" ><i class="fa-brands fa-facebook"></i></a>
+
+                <a href="https://www.instagram.com/rudyramirezm/" aria-label="Boton que lleva a Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://twitter.com/rudyramirezm" aria-label="Boton que lleva a Twitter"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre-mi.html">Sobre Mi</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footerBottom">
+                    <p>Copyrigth &copy;2023; Designed by Rodolfo Ramírez</p>
+                </div>
+            </div>
+        </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
